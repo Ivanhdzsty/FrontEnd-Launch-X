@@ -1,0 +1,52 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+header{
+    display: flex;
+    height: 90px;
+    background-color: rgba(225, 104, 219, 0.401);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    color: rgba(255, 0, 128, 0.356);
+    font-family: "Courier New", monospace;
+    font-size: 50px;
+}
+
+.logo img{
+    height: 150px;
+    margin-right: 10px;
+}
+
+nav a{
+    font-weight: 500;
+    padding: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    margin-left: 25px;
+    color: rgba(13, 112, 205, 0.704);
+}
+
+nav a:hover{
+    color: rgba(251, 251, 251, 0.766);
+}
+
+.principal {
+    font-family: 'Fredoka One';
+    font-size: 30px;
+    text-align: center;
+
+}
